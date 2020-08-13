@@ -1,0 +1,1 @@
+g++ -o draw2.exe draw2.cc `${ROOTSYS}/bin/root-config --cflags --libs` `${ROOTSYS}/bin/root-config --cflags --glibs` -g -lMinuit -lMatrix
